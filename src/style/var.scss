@@ -1,0 +1,55 @@
+/*var.scss*/
+/*注意！请不要放实际样式，只能放公共变量*/
+
+/*标准色*/
+$color-primary: #000000; //主色
+$color-sub-primary: #533c1b; //辅色 古铜绿
+$color-dark: #000; //墨色
+$color-light: #fff; //素色
+$color-danger: #ff4a3b;
+$color-danger-dark: #b5514d;
+$color-warning: #fbac20;
+$color-success: #0ec34c;
+$color-success-dark: #469734;
+$color-info: #007aff;
+$color-disabled: #cdcdcd;
+$color-blue: #3db0e9;
+$color-red: #f84848;
+$color-primary-active: darken(
+  $color-primary,
+  10%
+); //一般用户主色按钮滑过或选中的时候
+$color-danger-active: darken($color-danger, 10%);
+$color-warning-active: darken($color-warning, 10%);
+$color-success-active: darken($color-success, 10%);
+$color-info-active: darken($color-info, 10%);
+$color-dark-active: lighten($color-dark, 10%);
+
+$color-split: #dbe0e5; //分割线的颜色
+$color-bg: #fffae9;
+$color-text: #000; //文案色
+$color-text-secondary: #333; //次级文案
+$color-text-gray: #acacac; //更灰色文案
+$color-text-gray-light: #aaa; //灰色文案
+$color-placeholder: #acacac; //placeholder
+$color-black: #000; //标题深黑色
+$color-orange: #f77103;
+$color-orange-dark: #d66000;
+$max-width: 1920px; //最大宽度
+$max-width-half: 600px;
+
+/*链接色*/
+$color-link: $color-primary;
+$color-link-active: $color-primary-active;
+
+// 响应式尺寸设定
+$grid-gutter-width: 24px; //水槽宽度
+$container-xs: 450px; //小于此是 手机屏幕
+$container-sm: 769px; //小于此是 手机屏幕
+$container-md: 992px; //小于此是 pad 竖屏幕
+$container-lg: 1200px; //小于此是 pad 横屏幕
+$container-xl: 1500px; //小于此是 笔记本电脑屏幕，大于此是1600、1920或更大的屏幕
+
+$cubic: cubic-bezier(0.21, 0.69, 0.59, 0.93);
+
+$border-color: #d5d5d5; 

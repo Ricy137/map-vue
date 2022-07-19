@@ -1,0 +1,10 @@
+[[redirects]]
+  from = "/algolet/*"
+  to = "https://pai.tigerobo.com/x-pai-biz/ai/artImage/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

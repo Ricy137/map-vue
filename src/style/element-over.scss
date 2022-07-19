@@ -1,0 +1,125 @@
+.el-button--text,
+.el-select-dropdown__item.selected {
+  color: $color-primary;
+}
+.el-input {
+  font-size: 1.4rem;
+}
+.el-input-group__prepend {
+  border: none;
+}
+.el-select .el-input.is-focus .el-input__inner {
+  border-color: $border-color;
+}
+.el-button,
+.el-input__inner,
+.el-textarea__inner,
+.el-textarea__inner:hover {
+  border: none;
+}
+.el-button:hover {
+  border-color: #666666;
+}
+.el-button--text:focus,
+.el-button--text:hover,
+.el-button:focus,
+.el-button:hover {
+  color: $color-orange;
+}
+.el-button--primary:hover {
+  color: $color-light;
+}
+.el-select-dropdown__item.selected {
+  color: $color-text;
+}
+.el-badge__content {
+  background-color: $color-red;
+}
+.el-form-item__label {
+  color: $color-text;
+  font-size: 1.8rem;
+}
+.el-date-editor .el-range-separator {
+  line-height: 50px;
+  display: inline-flex;
+  align-items: center;
+}
+.el-icon-close {
+  color: $color-primary;
+  background: $color-orange;
+  border-radius: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.el-icon-close:hover {
+  background: $color-orange-dark;
+}
+.el-icon-share {
+  cursor: pointer;
+}
+.el-message-box {
+  // background-image: url("../assets/home/circle.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.el-message-box__btns {
+  button {
+    border-radius: 20rem;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    background: $color-light;
+    color: #000;
+  }
+  button:nth-child(2) {
+    background: $color-red;
+    color: #fff;
+  }
+}
+.el-dropdown {
+  font-size: 1.6rem;
+  color: $color-primary;
+}
+.el-dropdown-selfdefine {
+  cursor: pointer;
+}
+.el-carousel__button {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  background-color: #c4c4c4;
+}
+.el-carousel__indicator.is-active button {
+  background-color: #6660d5;
+}
+// .layout-sidebar {
+//   .el-menu {
+//     background-color: transparent;
+//     --el-menu-border-color: transparent;
+//   }
+//   .el-menu-item {
+//     border-radius: 30px 0px 0px 30px;
+//     margin: 10px 0px;
+//   }
+//   .el-menu-item,
+//   .el-menu-item i {
+//     color: #ffffffbb;
+//   }
+
+//   .el-menu-item.is-active,
+//   .el-menu-item:hover {
+//     color: #000000;
+//     background: linear-gradient(90deg, #ffee55, transparent);
+//     i {
+//       color: #000000;
+//     }
+//   }
+//   .el-icon {
+//     margin-right: 5px;
+//     width: 24px;
+//     text-align: center;
+//     font-size: 18px;
+//     vertical-align: middle;
+//     margin-top: -7px;
+//   }
+// }

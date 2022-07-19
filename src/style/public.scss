@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+a,
+input,
+textarea,
+select,
+button {
+  outline: 0;
+  color: $color-primary;
+  text-decoration: none;
+  // &:active,
+  // &:hover {
+  //   opacity: 0.9;
+  // }
+}
+::placeholder {
+  color: $color-placeholder !important;
+}
+:root {
+  --gutter: $grid-gutter-width;
+  --bs-gutter: $grid-gutter-width;
+  --bs-gutter-x: $grid-gutter-width;
+  --bs-gutter-y: $grid-gutter-width;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  color: $color-text;
+  font-weight: 400;
+}
+h1 {
+  font-size: 3.4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h3 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.8rem;
+}
+h5 {
+  font-size: 1.6rem;
+}
+h6 {
+  font-size: 1.4rem;
+}
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: middle;
+  fill: currentColor;
+  overflow: hidden;
+}
+.font-bold {
+  font-weight: 700;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.items-center {
+  align-items: center;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}

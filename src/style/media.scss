@@ -1,0 +1,59 @@
+@media screen and (max-width: 2560px) {
+  html,
+  body {
+    font-size: 75%;
+  }
+
+  .about-white-paper {
+    width: calc(60% - 190px) !important;
+  }
+
+  .paper-content {
+    margin: 5rem 0rem;
+  }
+
+  .about-container .about-content .about-back #about-monster-3 {
+    top: 340px !important;
+  }
+  .about-container .about-content .about-back #about-monster-2 {
+    top: 380px !important;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  html,
+  body {
+    font-size: 62.5%;
+  }
+  .about-white-paper {
+    width: calc(50% - 190px) !important;
+  }
+  .paper-content {
+    margin: 2rem 0rem;
+  }
+  .about-container .about-content .about-back #about-monster-3 {
+    top: 180px !important;
+  }
+  .about-container .about-content .about-back #about-monster-2 {
+    top: 220px !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 970px) {
+}
+
+@media screen and (max-width: 768px) {
+  .event-item {
+    width: calc(100% - 60px) !important;
+    min-width: unset !important;
+  }
+}
+
+@media screen and (max-width: 479px) {
+}
